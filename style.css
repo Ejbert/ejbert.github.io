@@ -1,12 +1,73 @@
 body {
-  font-family: 'helvetica neue', arial, sans-serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
-  background: url(linedpaper.png) repeat;
+  background-image: url(taipei.jpg);
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
 }
+
 #wrapper {
+  background-color: gainsboro;
   width: 960px;
+  height: 1200px;
   margin: 20px auto;
+  padding: 20px;
+  border-radius:20px;
+  opacity: .95;
 }
+
+#header {
+	height: 340px;
+}
+
+#main {
+	float: left;
+	width: 620px;
+}
+
+#twitter {
+	padding-top: 50px;
+	float: right;
+	width: 340px;
+}
+
+/*-----Text styling-----*/
+
+h1, h2 {
+	line-height: 30px;
+}
+
+h3 {
+	line-height: 15px;
+}
+
 p {
-	line-height: 3
+	line-height: 10px;
 }
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+ul, li {
+	display: inline;
+	margin: 5px;
+	line-height: 50px;
+}
+
+/*----- Image styling-----*/
+
+img#me {
+	border-radius: 5px;
+	float: right;
+	max-height: 100%;
+	max-width: 100%;
+}
+
+img.icons {
+	max-height: 15%;
+}
+
