@@ -10,7 +10,7 @@ body {
 #wrapper {
   background-color: gainsboro;
   width: 960px;
-  height: 1200px;
+  height: 1500px;
   margin: 20px auto;
   padding: 20px;
   border-radius:20px;
@@ -67,7 +67,7 @@ img#me {
 	max-width: 100%;
 }
 
-img.icons {
-	max-height: 15%;
+img.social {
+	max-height: 10%;
 }
 
