@@ -17,7 +17,7 @@
         <p>Professional Student that is having issues with my local page looking different than my Github page!!</p>
       </div>
       <div class="row">
-        <div class="col-md-6 col-sm-3">
+        <div class="col-md-6 col-sm-6">
 
           <h4>Find me @</h4>
 
@@ -43,25 +43,36 @@
           <br>
           <br>
 
-          <h4>Say hi!</h4>
-
-          <input type="text" class="form-control" placeholder="Text input">
-
-          <div class="form-group">
-            <button type="submit" class="btn btn-default">Submit</button>
-          </div>
-
-          </div>
-
-
-          <div class="col-md-6 col-sm-3">
-            <img id="me" src="me.jpeg">
+          <form action="http://learn.golearntocode.com/forms" method="get">
+            <div class="form-group">
+              <label for="email">Gimme your call sign</label>
+              <input type="email" class="form-control" id="email" name="email" placeholder="Email?">
+            </div>
             
-            <a class="twitter-timeline" href="https://twitter.com/ejbert" data-widget-id="515585884205228032">Tweets by @ejbert</a>
-        
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            <div class="form-group">
+              <label for="subject">what we talkin bout</label>
+              <input type="text" class="form-control" id="subject" name="subject" placeholder="what's up?"></input>
+            </div>
+            
+            <div class="form-group">
+              <label for="body">now get to the point</label>
+              <textarea class="form-control" name="body" rows="3" placeholder="type away"></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-success">Submit</button>
+          </form>
 
-          </div>  
+        </div>
+
+
+        <div class="col-md-6 col-sm-6">
+          <img id="me" src="me.jpeg">
+          
+          <a class="twitter-timeline" href="https://twitter.com/ejbert" data-widget-id="515585884205228032">Tweets by @ejbert</a>
+      
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+        </div>  
     </div>
     
 
