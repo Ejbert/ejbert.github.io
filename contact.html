@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>RestoList: My List</title>
+  <title>RestoList: Contact Us</title>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
@@ -34,9 +34,9 @@
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		      <ul class="nav navbar-nav">
 		        <li><a href="about.html">About Us</a></li>
-		        <li class="active"><a href="mylist.html">My List</a></li>
+		        <li><a href="mylist.html">My List</a></li>
 		        <li><a href="search.html">Search</a></li>
-		        <li><a href="contact.html">Contact Us</a></li>
+		        <li class="active"><a href="contact.html">Contact Us</a></li>
 		      </ul>
 		      <form class="navbar-form navbar-right" role="search" method="post">
 		        <div class="form-group">
@@ -48,90 +48,23 @@
 		  </div><!-- /.container-fluid -->
 		</nav>
 
-		<div class="row">
-			<div class="col-sm-2">
-			</div>
-			<div class="col-sm-8">
-				<h3 class="table-title text-center">My Most Wanted</h3>
-				<table class="table text-center">
-					<thead class="table-header-fill">
-						<th class="text-center">Restaurant</th>
-						<th class="text-center">Neighborhood</th>
-						<th class="text-center">Notes</th>
-					</thead>
-					<tr>
-						<td>Boltwood</td>
-						<td>Evanston</td>
-						<td>Up and coming, gotta get there soon</td>
-					</tr>
-					<tr>
-						<td>Alinea</td>
-						<td>Lincoln Park</td>
-						<td>Saving my money...</td>
-					</tr>
-					<tr>
-						<td>Chicago Pizza & Oven Grinder</td>
-						<td>Lincoln Park</td>
-						<td>Family fave, come here to get your gut-busted!</td>
-					</tr>
-					<tr>
-						<td>Longman & Eagle</td>
-						<td>Logan Square</td>
-						<td>Head over when my NY friends come to town</td>
-					</tr>
-					
+		<form action="mailto:eric.bertelsen@gmail.com" method="post">
 
-				</table>
-			</div>
-			<div class="col-sm-2">
-			</div>
-		<div class="row">
-			<div class="col-sm-5">
-				<h3 class="table-title text-center">Chicago Mexican</h3>
-				<table class="table text-center">
-					<thead class="table-header-fill">
-						<th class="text-center">Restaurant</th>
-						<th class="text-center">Neighborhood</th>
-					</thead>
-					<tr>
-						<td>Chilapan</td>
-						<td>Logan Square</td>
-					</tr>
-					<tr>
-						<td>Cemitas Pueblas</td>
-						<td>Logan Square</td>
-					</tr>
-					<tr>
-						<td>Xoco</td>
-						<td>River North</td>
-					</tr>
-				</table>
-			</div>
-			<div class="col-sm-2">
-			</div>
-			<div class="col-sm-5">
-				<h3 class="table-title text-center">Chicago-Style Pizza Joints</h3>
-				<table class="table text-center">
-					<thead class="table-header-fill">
-						<th class="text-center">Restaurant</th>
-						<th class="text-center">Neighborhood</th>
-					</thead>
-					<tr>
-						<td>Chicago Oven & Pizza Grinder</td>
-						<td>Lincoln Park</td>
-					</tr>
-					<tr>
-						<td>Pequod's Pizza</td>
-						<td>Morton Grove</td>
-					</tr>
-					<tr>
-						<td>Giordano's</td>
-						<td>River North</td>
-					</tr>
-				</table>
-		</div>
+            <div class="form-group">
+              <label for="subject">What would you like to talk about?</label>
+              <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject"></input>
+            </div>
+            
+            <div class="form-group">
+              <label for="body">Great, tell us more!</label>
+              <textarea class="form-control" name="body" rows="3" placeholder="Body"></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-success">Submit</button>
+      	</form>
+
 		
-		<!-- Footer for social media and other info -->
+		<!-- Footer for social media and other info -->		
 		<div class="row">
 			<div class="col-sm-12">
 				<ul class="footerbar">
