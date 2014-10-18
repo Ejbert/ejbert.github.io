@@ -3,13 +3,13 @@ padding-bottom:20px;
 }
 
 .container{
-  padding-top:0px;
+  padding-top:0;
 }
 
 #pagetitle{
   color:darkorange;
   font-size:70px;
-  line-height:40px;
+  line-height:20px;
   padding-top:0px;
 }
 
@@ -17,7 +17,12 @@ padding-bottom:20px;
   color:darkorange;
   font-size:20px;
   font-style:italic;
-  padding-top:10px;
+  padding-top:20px;
+}
+
+.page-header{
+  padding-bottom:0;
+  border-bottom:none;
 }
 
 #subscribe{
@@ -62,4 +67,16 @@ padding-bottom:20px;
 
 .btn-orng{
   background-color:darkorange;
+}
+
+.about-body{
+  padding-right:120px;
+}
+
+.table-title{
+  color:darkorange;
+}
+
+.table-header-fill{
+  background-color:gray;
 }
