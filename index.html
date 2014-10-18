@@ -1,89 +1,87 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Eric Bertelsen, Professional Student</title>
+  <title>RestoList: Your Dining To-Do List</title>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-  <div id="wrapper">
-    <div class="container-fluid">
-      <div class="page-header text-center">
-        <h1>ERIC BERTELSEN</h1>
-        <p>Professional Student that is having issues with my local page looking different than my Github page!!</p>
-      </div>
-      <div class="row">
-        <div class="col-md-6 col-sm-6">
+	<div class="container">
+		<div class="page-header text-center">
+			<h2 id="pagetitle">RestoList</h2>
+			<h4 id="tagline">Your Dining To-Do List</h4>
+		</div>
 
-          <h4>Find me @</h4>
+		<nav class="navbar navbar-inverse" role="navigation">
+		  <div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed btn-orng" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="index.html"><p class="active">Home</p></a>
+		    </div>
 
-          <ul class="list-inline">
-        
-            <li><a href="mailto:eric.bertelsen@gmail.com"><img class="img-responsive" src="email.png"></a>
-            </li>
-            
-            <li><a href="http://twitter.com/ejbert"><img class="img-responsive" src="twitter.png"></a>
-            </li>
-            
-            <li><a href="http://linkedin.com/in/ejbert"><img class="img-responsive" src="linkedin.png"></a>
-            </li>
-            
-            <li><a href="http://instagram.com/ejbert0"><img class="img-responsive" src="instagram.png"></a>
-            </li>
-          
-          </ul>
-          
-          <br>
-          <h4>Practicing code or reading Twitter</h4>  
-          
-          <br>
-          <br>
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav">
+		        <li><a href="about.html">About Us</a></li>
+		        <li><a href="mylist.html">My List</a></li>
+		        <li><a href="search.html">Search</a></li>
+		        <li><a href="contact.html">Contact Us</a></li>
+		      </ul>
+		      <form class="navbar-form navbar-right" role="search" method="post">
+		        <div class="form-group">
+		          <input type="email" class="form-control" placeholder="Email">
+		        </div>
+		        <button id="subscribe" type="submit" class="btn btn-default">Subscribe</button>
+		      </form>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
 
-          <form action="http://learn.golearntocode.com/forms" method="get">
-            <div class="form-group">
-              <label for="email">Gimme your call sign</label>
-              <input type="email" class="form-control" id="email" name="email" placeholder="Email?">
-            </div>
-            
-            <div class="form-group">
-              <label for="subject">what we talkin bout</label>
-              <input type="text" class="form-control" id="subject" name="subject" placeholder="what's up?"></input>
-            </div>
-            
-            <div class="form-group">
-              <label for="body">now get to the point</label>
-              <textarea class="form-control" name="body" rows="3" placeholder="type away"></textarea>
-            </div>
-            
-            <button type="submit" class="btn btn-success">Submit</button>
-          </form>
+		<div class="row">
+			<div class="col-sm-8">
+				<img class="img-responsive" src="ramen.jpg">
+				
+				<div class="featured">
+					<h2>Featured Restaurant: Ramen R Us</h2>
+					<button id="addtolist" type="submit" class="btn btn-default btn-orng">Add to List</button>
+				</div>
+				
+				<div class="featuredbody">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+				</div>
+			</div>
 
-        </div>
+			<div class="col-sm-4">
+				<h2>Hot Lists</h2>
+				<h4 class="links"><a class="orangelink" href="https://www.chicagoreader.com/chicago/best-of-chicago-2014-food-and-drink/BestOf?oid=13806875">Chicago Reader: 2014 Best of Food & Drink</a></h4>
+				<h4 class="links"><a class="orangelink" href="https://www.thrillist.com/top-picks/chicago">Thrillist: Chicago Top Picks</a></h4>
+				<h4 class="links"><a class="orangelink" href="https://chicago.eater.com/maps/updated-the-38-essential-chicago-restaurants-july-14">Eater: The Chicago 38</a></h4>
+				<h4 class="links"><a class="orangelink" href="https://www.yelp.com/search?find_desc=Restaurants&find_loc=Chicago%2C+IL&ns=1">Yelp: Top Chicago Restaurants</a></h4>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-sm-12">
+				<ul class="footerbar">
+			        <li><a class="orangelink" href="https://instagram.com"><i class="fa fa-instagram fa-2x"></i></a></li>
+			        <li><a class="orangelink" href="https://facebook.com"><i class="fa fa-facebook fa-2x"></i></a></li>
+			        <li><a class="orangelink" href="https://twitter.com"><i class="fa fa-twitter fa-2x"></i></a></li>
+			        <li><a class="orangelink" href="terms.html">Terms</a></li>
+			        <li><a class="orangelink" href="privacy.html">Privacy</a></li>
+		     	</ul>
+	     	</div>
+     	</div>
 
-
-        <div class="col-md-6 col-sm-6">
-          <img id="me" src="me.jpeg">
-          
-          <a class="twitter-timeline" href="https://twitter.com/ejbert" data-widget-id="515585884205228032">Tweets by @ejbert</a>
-      
-          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-        </div>  
-    </div>
-    
-
-    <div id="twitter">
-        
-        
-    </div>
-
-  </div>
-
-
+	</div>
 </body>
-</html>

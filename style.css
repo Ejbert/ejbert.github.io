@@ -1,73 +1,65 @@
 body {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-weight: 300;
-  background-image: url(taipei.jpg);
-  background-attachment: fixed;
-  background-position: center center;
-  background-size: cover;
+padding-bottom:20px;
 }
 
-#wrapper {
-  background-color: gainsboro;
-  width: 960px;
-  height: 1500px;
-  margin: 20px auto;
-  padding: 20px;
-  border-radius:20px;
-  opacity: .95;
+.container{
+  padding-top:0px;
 }
 
-#header {
-	height: 340px;
+#pagetitle{
+  color:darkorange;
+  font-size:70px;
+  line-height:40px;
+  padding-top:0px;
 }
 
-#main {
-	float: left;
-	width: 620px;
+#tagline{
+  color:darkorange;
+  font-size:20px;
+  font-style:italic;
+  padding-top:10px;
 }
 
-#twitter {
-	padding-top: 50px;
-	float: right;
-	width: 340px;
+#subscribe{
+  background-color:darkgray;
 }
 
-/*-----Text styling-----*/
-
-h1, h2 {
-	line-height: 30px;
+.navbar, .navbar-brand {
+  background-color:black;
+  font-size:20px;
+  color:white;
 }
 
-h3 {
-	line-height: 15px;
+.active {
+  color:white;
 }
 
-p {
-	line-height: 10px;
+.links {
+  font-size:16px;
+  line-height:24px;
 }
 
-ul {
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
+.featured {
+  font-style:italic;
+  padding-top:10px;
+  padding-bottom:10px;
 }
 
-ul, li {
-	display: inline;
-	margin: 5px;
-	line-height: 50px;
+.footerbar {
+  list-style-type: none;
+  padding-top:40px;
 }
 
-/*----- Image styling-----*/
-
-img#me {
-	border-radius: 5px;
-	float: right;
-	max-height: 100%;
-	max-width: 100%;
+.footerbar li {
+  display:inline;
+  padding-right:30px;
+  float:right;
 }
 
-img.social {
-	max-height: 10%;
+.orangelink{
+  color:darkorange;
 }
 
+.btn-orng{
+  background-color:darkorange;
+}
